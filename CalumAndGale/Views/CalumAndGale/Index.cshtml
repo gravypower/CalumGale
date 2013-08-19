@@ -1,0 +1,19 @@
+﻿@model CalumAndGale.Models.Rsvp
+@{
+    ViewBag.Title = "RSVP";
+}
+
+<div class="background">
+    @using (Html.BeginForm("Submitted", "CalumAndGale"))
+    {
+        <p>
+          Name: @Html.EditorFor(rsvp => rsvp.Name)
+          @Html.ValidationMessageFor(rsvp => rsvp.Name)
+        </p>
+        <p>
+          Email: @Html.EditorFor(rsvp => rsvp.Email)
+          @Html.ValidationMessageFor(rsvp => rsvp.Email)
+        </p>
+        <input type="submit" value="RSVP">     
+    }
+</div>
