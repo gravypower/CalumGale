@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace CalumAndGale
+namespace CalumGaleWeb.App_Start
 {
     public class BundleConfig
     {

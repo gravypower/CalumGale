@@ -1,12 +1,12 @@
 ﻿using System.Web.Mvc;
-using CalumAndGale.Models;
+using CalumGaleWeb.Models;
 
-namespace CalumAndGale.Controllers
+namespace CalumGaleWeb.Controllers
 {
-    public class CalumAndGaleController : Controller
+    public class CalumGaleController : Controller
     {
-        private CalumAndGaleContext db = new CalumAndGaleContext();
-        //
+        private CalumGaleContext db = new CalumGaleContext();
+        
         // GET: /Home/
 
         public ActionResult Index()
@@ -17,7 +17,7 @@ namespace CalumAndGale.Controllers
         [HttpPost]
         public ViewResult Submitted(Rsvp rsvp)
         {
-            if (string.IsNullOrEmpty(rsvp.Name) || string.IsNullOrEmpty(rsvp.Email))
+            if (string.IsNullOrEmpty(rsvp.Names) || string.IsNullOrEmpty(rsvp.Email))
                 return View("Index");
 
             db.Rsvps.Add(rsvp);

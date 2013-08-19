@@ -75,12 +75,25 @@ html {
 
 form
 {
-	float: right;
-	margin-right: 20px;
-	margin-top: 440px;
+	float: left;
+    margin-left: 300px;
+    margin-top: 430px;
+    font-weight: bolder;
 }
 
-form .text
-{
-	width: 380px;
+.lable {
+    float: left;
+    width: 60px;
+}
+
+.textbox {
+    float: left;
+}
+
+.textbox input[type=text]{
+    width: 300px;
+}
+
+.textbox input[type=email]{
+    width: 300px;
 }

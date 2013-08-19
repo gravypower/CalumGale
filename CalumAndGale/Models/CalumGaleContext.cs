@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity;
 
-namespace CalumAndGale.Models
+namespace CalumGaleWeb.Models
 {
-    public class CalumAndGaleContext : DbContext
+    public class CalumGaleContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -13,7 +13,7 @@ namespace CalumAndGale.Models
         // 
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<CalumAndGale.Models.CalumAndGaleContext>());
 
-        public CalumAndGaleContext() : base("name=CalumAndGaleContext")
+        public CalumGaleContext() : base("name=CalumAndGaleContext")
         {
         }
 
