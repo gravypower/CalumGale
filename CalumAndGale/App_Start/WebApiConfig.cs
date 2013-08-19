@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace CalumGaleWeb.App_Start
+namespace CalumGayleWeb.App_Start
 {
     public static class WebApiConfig
     {

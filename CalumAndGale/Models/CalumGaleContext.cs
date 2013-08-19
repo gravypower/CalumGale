@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity;
 
-namespace CalumGaleWeb.Models
+namespace CalumGayleWeb.Models
 {
-    public class CalumGaleContext : DbContext
+    public class CalumGayleContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -11,9 +11,9 @@ namespace CalumGaleWeb.Models
         // code to the Application_Start method in your Global.asax file.
         // Note: this will destroy and re-create your database with every model change.
         // 
-        // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<CalumAndGale.Models.CalumAndGaleContext>());
+        // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<CalumAndGayle.Models.CalumAndGayleContext>());
 
-        public CalumGaleContext() : base("name=CalumAndGaleContext")
+        public CalumGayleContext() : base("name=CalumGayleContext")
         {
         }
 

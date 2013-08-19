@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using CalumGaleWeb.Models;
+using CalumGayleWeb.Models;
 using NUnit.Framework;
 
-namespace CalumAndGaleTests
+namespace CalumAndGayleTests
 {
     [TestFixture]
     public class ModelTestFixture

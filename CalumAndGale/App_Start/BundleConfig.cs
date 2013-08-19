@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace CalumGaleWeb.App_Start
+namespace CalumGayleWeb.App_Start
 {
     public class BundleConfig
     {

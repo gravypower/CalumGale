@@ -1,11 +1,11 @@
 ﻿using System.Web.Mvc;
-using CalumGaleWeb.Models;
+using CalumGayleWeb.Models;
 
-namespace CalumGaleWeb.Controllers
+namespace CalumGayleWeb.Controllers
 {
-    public class CalumGaleController : Controller
+    public class CalumGayleController : Controller
     {
-        private CalumGaleContext db = new CalumGaleContext();
+        private CalumGayleContext db = new CalumGayleContext();
         
         // GET: /Home/
 

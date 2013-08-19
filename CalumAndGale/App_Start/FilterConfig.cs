@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace CalumGaleWeb.App_Start
+namespace CalumGayleWeb.App_Start
 {
     public class FilterConfig
     {
