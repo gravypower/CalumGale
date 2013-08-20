@@ -4,7 +4,7 @@ using System.Linq;
 using CalumGayleWeb.Models;
 using NUnit.Framework;
 
-namespace CalumAndGayleTests
+namespace CalumGayleTests
 {
     [TestFixture]
     public class ModelTestFixture
