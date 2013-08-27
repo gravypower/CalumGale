@@ -5,28 +5,61 @@
 
 <div class="background">
     @using (Html.BeginForm("Submitted", "CalumGayle"))
+    {
+        <div>
+            <div class="lable">
+                Names: 
+    @using (Html.BeginForm("Submitted", "CalumGayle"))
 {
         <div>
             <div class="lable">
                 Names: 
-            </div>
-            <div class="textbox">
-                @Html.EditorFor(rsvp => rsvp.Names)
+    <div class="form">
+        @using (Html.BeginForm("Submitted", "CalumGayle"))
+        {
+            <div>
+                <div class="lable">
+                    Names: 
+                </div>
+                <div class="textbox">
+                    @Html.EditorFor(rsvp => rsvp.Names)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(rsvp => rsvp.Names)
+                </div>
             </div>
             <div>
-                @Html.ValidationMessageFor(rsvp => rsvp.Names)
+                <div class="lable">
+                    Email:
+                </div>
+                <div class="textbox">
+                    @Html.EditorFor(rsvp => rsvp.Email)
+                </div>
+                <div>
+                    @Html.ValidationMessageFor(rsvp => rsvp.Email)
+                </div>
+            </div>
+            <div>
+                @Html.EditorFor(rsvp => rsvp.Ireland) Attending the Irish Wedding.
+            </div>
+            <div>
+                @Html.EditorFor(rsvp => rsvp.Australia) Attending the Australian Wedding.
+            </div>
+            <div>
+                @Html.EditorFor(rsvp => rsvp.NotGoing) Respectfully decline.
             </div>
         </div>
         <div>
-            <div class="lable">
-                Email:
-            </div>
-            <div class="textbox">
-                @Html.EditorFor(rsvp => rsvp.Email)
-            </div>
-            <div>
-                @Html.ValidationMessageFor(rsvp => rsvp.Email)
-            </div>
+            @Html.EditorFor(rsvp => rsvp.Ireland) Attending the Irish Wedding.
+        </div>
+        <div>
+            @Html.EditorFor(rsvp => rsvp.Australia) Attending the Australian Wedding.
+        </div>
+        <div>
+            @Html.EditorFor(rsvp => rsvp.NotGoing) Respectfully decline.
+        </div>
+        <input type="submit" value="RSVP">     
+    }
         </div>
         <div>
             @Html.EditorFor(rsvp => rsvp.Ireland) Attending the Irish Wedding.
@@ -39,6 +72,9 @@
         </div>
     <input type="submit" value="RSVP">     
     }
+            <input type="submit" value="RSVP">     
+        }
+    </div>
 </div>
 <div>
     <table>

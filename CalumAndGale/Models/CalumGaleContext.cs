@@ -11,7 +11,7 @@ namespace CalumGayleWeb.Models
         // code to the Application_Start method in your Global.asax file.
         // Note: this will destroy and re-create your database with every model change.
         // 
-        // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<CalumAndGayle.Models.CalumAndGayleContext>());
+        // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<CalumGayle.Models.CalumAndGayleContext>());
 
         public CalumGayleContext() : base("name=CalumGayleContext")
         {
