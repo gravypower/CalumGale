@@ -68,10 +68,14 @@ html {
 {
 	background: url(CalumGayle.jpe); 
 	height: 700px;
-	width: 700px;
-	margin:0 auto;
     background-color: #ECDDC6;
 }
+
+.center {
+	width: 700px;
+	margin:0 auto;
+}
+
 
 form
 {
@@ -96,4 +100,29 @@ form
 
 .textbox input[type=email]{
     width: 300px;
+}
+nav {
+    height: 20px;
+}
+
+nav ul {
+    margin:0;
+    padding:0; 
+}
+
+nav li{
+    width:100px;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+ 
+nav a{
+    font-weight: bold;
+    text-decoration:none;
+} 
+
+.bold {
+    font-weight: bold;
+    font-size: large;
 }

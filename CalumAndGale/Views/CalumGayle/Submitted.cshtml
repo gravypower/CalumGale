@@ -2,11 +2,14 @@
 
 @{
     ViewBag.Title = "title";
-
 }
 
-<div class="background">
-    <p>
-        Thanks we have you details now.
-    </p>
+<nav class="center">
+    @Html.Partial("Navigation")
+</nav>
+<div class="center">
+    <h1>
+            Thanks we have you details now.
+    </h1>
+    @Html.Partial("AccommodationDetails")
 </div>

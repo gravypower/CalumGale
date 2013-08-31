@@ -14,6 +14,11 @@ namespace CalumGayleWeb.Controllers
             return View();
         }
 
+        public ActionResult Accommodation()
+        {
+            return View("Accommodation");
+        }
+
         [HttpPost]
         public ViewResult Submitted(Rsvp rsvp)
         {

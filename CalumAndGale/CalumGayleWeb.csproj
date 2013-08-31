@@ -216,9 +216,11 @@
     </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
@@ -226,6 +228,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\CalumGayle\Index.cshtml" />
     <Content Include="Views\CalumGayle\Submitted.cshtml" />
+    <Content Include="Views\CalumGayle\Navigation.cshtml" />
+    <Content Include="Views\CalumGayle\Accommodation.cshtml" />
+    <Content Include="Views\CalumGayle\AccommodationDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
